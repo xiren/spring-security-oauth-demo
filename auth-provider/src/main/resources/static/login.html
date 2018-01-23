@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <title>OAuth Provider</title>
+    <meta name="description" content=""/>
+    <meta name="viewport" content="width=device-width"/>
+    <base href="/provider"/>
+    <link rel="stylesheet" type="text/css" href="/provider/webjars/bootstrap/css/bootstrap.min.css"/>
+    <script type="text/javascript" src="/provider/webjars/jquery/jquery.min.js"></script>
+    <script type="text/javascript" src="/provider/webjars/bootstrap/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="container">
+    <h1>Login</h1>
+    <div class="form-horizontal">
+        <form action="/provider/login" method="post" role="form">
+            <div class="form-group">
+                <label for="username">username:</label>
+                <input class="form-control" id="username" name="username" type="text" value="marissa">
+            </div>
+            <div class="form-group">
+                <label for="password">password:</label>
+                <input class="form-control" id="password" name="password" type="password" value="koala">
+            </div>
+            <button type="submit" class="btn btn-primary">Login</button>
+        </form>
+    </div>
+</div>
+</body>
+</html>
